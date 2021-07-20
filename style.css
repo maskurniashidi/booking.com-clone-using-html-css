@@ -1,0 +1,252 @@
+/*global*/
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+body{
+    color: white;
+    font: 16px/1.5 Arial, sant-serif;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+ul li{
+    list-style: none;
+}
+
+/*container*/
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+/*header*/
+
+/*header nav*/
+
+header{
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+}
+
+header nav{
+    background: #003580;
+}
+
+.container.nav{
+    display: flex;
+    flex-direction: column;
+}
+
+.container.nav .top-nav{
+    display: flex;
+    justify-content: space-between;
+    /*background-color: aqua;*/
+    height: 10vh;
+}
+
+.top-nav .left{
+    display: flex;
+    width: 50%;
+    align-items: center;
+}
+
+.top-nav .right{
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.right img{
+    border-radius: 50%;
+    width: 1.33em;
+}
+
+.right .navform{
+    border: 2px solid #fff;
+    padding: 7px 0px;
+}
+
+.navform.daftar-properti{
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+.navform.daftar,
+.navform.login{
+    padding-left: 7px;
+    padding-right: 7px;
+    color: #003580;
+    background: #fff;
+    border: 2px solid #0071C2;
+}
+
+.navform.daftar a,
+.navform.login a{
+    color: #0071C2;
+}
+
+.bottom-nav ul{
+    display: flex;
+}
+
+ul li{
+    margin-left: 20px;
+    padding: 15px 0px;
+}
+
+ul li:nth-child(1){
+    border-bottom: 4px solid #fff;
+}
+
+
+/*header booking Form*/
+
+header .booking-form{
+    background-color: #F5F5F5;
+    color: black;
+}
+
+.container.booking{
+    padding: 50px 0px;
+}
+
+.container.booking form{
+    display: flex;
+    /*background-color: aqua;*/
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+form .field-kemana{
+    flex: 2;
+    border: 4px solid #FEBB02;
+    background: #fff;
+    padding-left: 20px;
+}
+
+form .field-kemana:hover{
+    box-shadow:0px 0px 0px 1px #eeb20d inset;
+}
+
+form .field-check{
+    flex: 1;
+    border-top: 4px solid #FEBB02;
+    border-bottom: 4px solid #FEBB02;
+    border-right: 4px solid #FEBB02;
+    background: #fff;
+    padding-left: 20px;
+}
+
+form .field-check:hover{
+    box-shadow:0px 0px 0px 1px #eeb20d inset;
+}
+
+form .field-room{
+    flex: 1;
+    border-top: 4px solid #FEBB02;
+    border-bottom: 4px solid #FEBB02;
+    background: #fff;
+    padding-left: 20px;
+}
+
+form .field-room:hover{
+    box-shadow:0px 0px 0px 1px #eeb20d inset;
+}
+
+form button{
+    flex: 0.5;
+    padding: 15px 0px;
+    border: 4px solid #FEBB02;
+    color: #fff;
+    background: #003580;
+}
+
+form input{
+    width: 88%;
+    height: 95%;
+    margin-top: 2px;
+    font-size: 1em;
+    border: none;
+}
+
+form input:focus{
+    outline: none;
+}
+
+
+/*SECTION INFO*/
+.info{
+    color: #000;
+    margin-top: 40px;
+}
+
+.info .first-info{
+    display: flex;
+    padding: 20px 5px;
+    align-items: center;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    /*background-color: aqua;*/
+}
+
+.first-info .exclamation-icon{
+    display: flex;
+    width: 30px;
+    height: 30px;
+    background: #eecaa3;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+    margin-left: 15px;
+    border-radius: 7px;
+}
+
+.exclamation-icon .fas.fa-exclamation{
+    color: #923E01;
+}
+
+.first-info p{
+    width: 70%;
+}
+
+.second-info{
+    display: flex;
+    /*background: aqua;*/
+    margin-top: 40px;
+    width: 90%;
+}
+
+.second-info .card-info{
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    flex: 1;
+    margin-right: 30px;
+    padding: 15px 5px;
+    display: flex;
+    cursor: pointer;
+}
+
+.card-info:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card-info .card-info-icon{
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+}
+
+.card-info .card-info-description{
+    margin-left: 10px;
+    font-size: 0.9em;
+}
+.card-info-icon .fas.fa-car{
+    color: #0071C2;
+}

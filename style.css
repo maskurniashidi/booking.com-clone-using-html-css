@@ -247,6 +247,31 @@ form input:focus{
     margin-left: 10px;
     font-size: 0.9em;
 }
-.card-info-icon .fas.fa-car{
+.card-info-icon .fas.fa-car,
+.card-info-icon .fas.fa-taxi,
+.card-info-icon .fas.fa-map-marked-alt{
     color: #0071C2;
+}
+
+
+.third-info{
+    margin: 40px 0px;
+    display: flex;
+    padding: 20px 10px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+.third-info p{
+    margin-left: 10px;
+    width: 95%;
+}
+
+.third-info p a{
+    color: blue;
+    text-decoration: underline;
+}
+
+.third-info a.close{
+    color: black;
 }

@@ -168,15 +168,15 @@ form button{
     background: #003580;
 }
 
-form input{
+.container.booking form input{
     width: 88%;
-    height: 95%;
+    height: 93%;
     margin-top: 2px;
     font-size: 1em;
     border: none;
 }
 
-form input:focus{
+.container.booking form input:focus{
     outline: none;
 }
 
@@ -274,4 +274,498 @@ form input:focus{
 
 .third-info a.close{
     color: black;
+}
+
+/*jelajahi*/
+.jelajahi .container{
+    color: #000;
+}
+
+.container .cards-jelajahi{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.container .card-jelajahi:hover{
+    cursor: pointer;
+}
+
+/*cari rumah*/
+.cari-rumah .container{
+    position: relative;
+}
+
+.cari-rumah .container img{
+    width: 100%;
+    margin-top: 20px;
+}
+
+.cari-rumah .container a{
+    color: black;
+    position: absolute;
+    right: 10px;
+    top: 30px;
+    font-size: 28px;
+}
+
+/*kota box*/
+.kota-box .container.galeri-kota{
+    color: #fff;
+    margin-top: 20px;
+}
+
+.container.galeri-kota .city-flag{
+    display: flex;
+    align-items: center;
+
+}
+
+.container.galeri-kota .city-flag h3{
+    font-size: 28px;
+    font-weight: bold;
+
+}
+
+.container.galeri-kota .city-flag img{
+    margin-left: 10px;
+    width: 30px;
+    height: 20px;
+
+}
+
+.container.galeri-kota .top{
+    display: flex;
+    justify-content: space-between;
+}
+
+.top .top-first,
+.top .top-second{
+    width: 48.5%;
+    height: 275px;
+    background-color: aqua;
+    background-image: url('https://source.unsplash.com/random/500x500');
+    background-size: cover;
+    background-position: center;
+    padding-left: 20px;
+    padding-top: 20px;
+    box-sizing: border-box;
+}
+
+.top .top-first:hover,
+.top .top-second:hover{
+    border: 1px solid #eeb20d;
+    box-shadow: inset 0px 2px 50px rgba(0,0,255,0.2);
+    cursor: pointer;
+}
+
+.top .top-first img,
+.top .top-second img{
+    width: 30px;
+}
+
+.container.galeri-kota .bottom{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom .bottom-first,
+.bottom .bottom-second,
+.bottom .bottom-third{
+    width: 30.5%;
+    height: 200px;
+    background-image: url('https://source.unsplash.com/random/400x200');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+
+.bottom .bottom-first:hover,
+.bottom .bottom-second:hover,
+.bottom .bottom-third:hover{
+    border: 1px solid #eeb20d;
+    box-shadow: inset 0px 2px 50px rgba(0,0,255,0.2);
+    cursor: pointer;
+}
+
+/*langganan*/
+.langganan{
+    margin-bottom: 40px;
+}
+
+.langganan .container{
+    color: #000;
+    display: flex;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+    box-sizing: border-box;
+    align-items: center;
+    position: relative;
+}
+
+.langganan .container .icon-langganan img{
+    border-radius: 50%;
+    border: 8px solid #FEBA02;
+    margin-right: 20px;
+}
+
+.langganan .desc-langganan{
+    width: 85%;
+}
+.langganan .container a{
+    color: #000;
+}
+
+.container .desc-langganan h3,
+.container .desc-langganan p{
+    margin-bottom: 10px;
+}
+
+.desc-langganan form{
+    display: flex;
+    height: 30px;
+}
+
+.desc-langganan form input{
+    width: 50%;
+    height: 100%;
+    box-sizing: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 3px;
+    padding-left: 10px;
+}
+
+.desc-langganan form input.btn-langganan{
+    background: #fff;
+    color: #0071C2;
+    border: 1px solid #0071C2;
+    height: 100%;
+    width: 15%;
+    padding: 5px 0px;
+    margin-left: 10px;
+    border-radius: 3px;
+    margin-top: 1.5px;
+}
+
+.langganan .container a{
+    position: absolute;
+    top: 7.5px;
+    right: 15px;
+    font-size: 28px;
+}
+
+/*rumah liburan*/
+.rumah-liburan .container{
+    color: #000;
+}
+
+.container .rumah-liburan-galeri{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.rumah-liburan-galeri .rumah-liburan-card{
+    cursor: pointer;
+}
+
+.rumah-liburan-galeri .rumah-liburan-card h4{
+    font-weight: 400;
+}
+
+.rumah-liburan-galeri .rumah-liburan-card .rumah-liburan-location{
+    font-weight: lighter;
+    opacity: 0.8;
+}
+
+.rumah-liburan-galeri .rumah-liburan-card .rumah-liburan-price{
+    margin-top: 10px;
+    font-weight: bolder;
+}
+
+.rumah-liburan-card .review{
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.review .score{
+    background: #003580;
+    color: #fff;
+    padding: 5px;
+    border: 1px solid #003580;
+    border-radius: 8px 8px 8px 0px;
+}
+
+.review .score-char{
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+
+.review .jumlah-ulasan{
+    margin-left: 10px;
+    font-size: 12px;
+    opacity: 0.8;
+}
+
+/*tipe akomodasi*/
+.tipe-akomodasi{
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+
+.tipe-akomodasi .container {
+    color: black;
+}
+.container .akomodasi-galeri{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.akomodasi-galeri .akomodasi-card{
+    cursor: pointer;
+}
+
+.akomodasi-card h4{
+    margin-top: 10px;
+}
+
+.akomodasi-card p{
+    opacity: 0.8;
+}
+
+
+/*rekomendasi*/
+.rekomendasi{
+    margin-bottom: 40px;
+}
+
+.rekomendasi .container a{
+    color: #0071C2;
+    text-decoration: underline #0071C2;
+}
+
+.rekomendasi .container .rekomendasi-galeri{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.rekomendasi-galeri .rekomendasi-card{
+    width: 23%;
+}
+
+/*destinasi*/
+.destinasi{
+    color: #000;
+    margin-bottom: 40px;
+}
+
+.destinasi .container a{
+    color: #0071C2;
+}
+
+.container .filter-destinasi{
+    display: flex;
+    border-bottom: 1px solid #0071C2;
+}
+
+.filter-destinasi p{
+    padding: 10px 20px;
+}
+
+.filter-destinasi p:hover{
+    cursor: pointer;
+}
+
+.filter-destinasi p:nth-child(2):hover,
+.filter-destinasi p:nth-child(3):hover{
+    color: #0071C2;
+}
+
+.filter-destinasi .kawasan{
+    background: #0071C2;
+    color: #fff;
+}
+
+.container .detail-destinasi{
+    margin-top: 15px;
+}
+
+.detail-destinasi .detail-boxs{
+    display: flex;
+    margin-top: 10px;
+}
+
+.detail-boxs .detail-box{
+    flex: 1;
+}
+
+.detail-box p{
+    opacity: 0.8;
+}
+
+/*temukan*/
+.temukan .container{
+    color: #000;
+    margin-bottom: 40px;
+}
+
+.temukan .container a{
+    color: #0071C2;
+}
+
+.temukan .container .pages{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.temukan a.page{
+    background: grey;
+    color: white;
+    margin-right: 5px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.temukan .container a.blue{
+    background: #0071C2;
+}
+
+
+.temukan .pages p{
+    background: none;
+    color: #0071C2;
+    cursor: pointer;
+}
+
+
+.temukan a.page:hover{
+    background: #0071C2;
+}
+
+.container .temukan-galeri{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.temukan-box{
+    width: 18.7%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.temukan-box a{
+    margin-top: 10px;
+}
+
+/*footer*/
+footer{
+    color: #000;
+}
+
+/*first footer*/
+footer .first-footer{
+    background: #003580;
+    color: white;
+    padding: 100px 0px;
+    margin: auto;
+    text-align: center;
+}
+
+.first-footer h2{
+    font-size: 2em;
+    font-weight: 400;
+}
+
+.first-footer form{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.first-footer form .input-email{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.first-footer form .input-email .input-footer{
+    width: 450px;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    margin-right: 8px;
+}
+
+.first-footer form .input-email .submit-footer{
+    height: 52px;
+    padding: 0px 50px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    background: #0071C2;
+    color: #fff;
+    font-size: 1.5em;
+}
+
+.first-footer .checkbox-berita{
+    width: 50%;
+    margin: auto;
+    margin-top: 10px;
+    text-align: left;
+}
+
+/*second footer*/
+.second-footer{
+    background: #0071C2;
+    padding-top: 20px;
+    margin-bottom: 40px;
+}
+
+.second-footer a{
+    color: black;
+}
+
+.second-footer p{
+    padding: 5px 10px;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    color: #fff;
+    width: 15%;
+}
+
+.second-footer hr{
+    margin-top: 20px;
+}
+
+.second-footer .footer-cards ul{
+    display: flex;
+}
+
+.second-footer .footer-cards ul li{
+    border: none;
+}
+
+.second-footer .footer-cards ul li a{
+    color: #fff;
+    border-bottom: 1px solid #fff;
 }
